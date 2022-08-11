@@ -1,0 +1,258 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	 padding: 20px 0;
+    /*border: 1px solid blue;*/
+
+}
+.wrapper{
+	/*border: 1px solid red;*/
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	    margin-top: 11px;
+
+	width: 15%;
+	float:left;
+		/*border: 1px solid black;*/
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+	/*border: 1px solid black;*/
+}
+.menu ul{
+	
+    float: right;
+
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+}
+.menu ul li a{
+	transition: .5s;
+	text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 60px;
+    display: block;
+   	color: #626262;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+
+
+}
+.menu ul li a:hover{
+color: #000000;	
+}
+/*header end*/
+/*banner start*/
+.banner{
+
+}
+.banner_img{
+	width: 100%;
+}
+
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 60px;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid yellow;*/
+}
+.parfect{}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.p_h1{
+	font-weight: 400;
+	font-size: 30px;
+}
+.p_content{
+	margin-bottom: 35px;
+	font-size: 14px;
+	word-spacing: 1px;
+    line-height: 1.8;
+}
+
+/*getaway end*/
+/*blog start*/
+.blog{}
+.blog_wrapper{
+	overflow: hidden;
+}
+.single{
+	width: 47%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.single:nth-child(even){
+	margin-left: 60px;
+}
+.single img{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+
+
+/*blog end*/
+/*newsletter start*/
+
+.newsletter {
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+
+.wrapper3 {
+	width: 60%;
+	margin:0 auto;
+}
+
+.signup {
+	text-align: center;
+}
+
+.p_h2 {
+	font-weight: 400;
+	font-size: 30px;
+	padding-bottom: 100px;
+
+}
+
+.form {
+	width: 350px;
+	left: 0;
+    right: 0;
+    margin: 0 auto; 
+}
+.form input{
+	border: none;
+	background: transparent;
+	/*border-bottom: 1px solid black;*/
+	width: 300px;
+	outline: none;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
+}
+.form button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	outline: none;
+	padding-top: 15px;
+	right: 600px;
+
+}
+.form button img{
+	width: 100%;
+}
+
+/*newsletter end*/
+/*blog2 start*/
+
+#blog2 {
+	padding: 50px 0;
+}
+
+/*blog2 end*/
+/*loadmore start*/
+.loadmore {
+	padding: 20px 0;
+	width: 35%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	margin-bottom:380px;
+}
+.sent{
+
+}
+.loadmore img{
+	width: 100%;
+}
+/*loadmore end*/
+/*footer start*/
+
+#footer {
+	padding: 50px 0;
+	background-color: #f0f0f0;
+	padding-bottom: 100px;
+}
+
+.wrapper2 {
+}
+
+.last {
+}
+
+.block {
+	width: 30%;
+}
+.block ul{
+	float: left;
+}
+.block ul li{
+	list-style: none;
+	float: left;
+
+}
+.block ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	padding: 0 60px;
+	color: #626262;
+	transition: .5s;
+
+}
+
+.follow {
+}
+.follow ul{}
+.follow ul li{
+	margin-top: 20px;
+	float: right;
+	list-style: none;
+}
+.follow ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	padding: 0 10px;
+	color: #626262;
+	transition: .5s;
+}
+.follow ul li a img{
+	width: 100%
+}
+.follow ul li:last-child a{
+	padding-right: 0;
+}
+/*footer end*/
